@@ -236,7 +236,9 @@ blockquote {
   padding: 5px 0;
   font-weight: bold;
 }
-.job .highlights ul li {
+.job-details .description ul li {
+  display: inherit;
+  list-style: inside;
   border: 0;
 }
 .job .job-details {
@@ -263,7 +265,9 @@ blockquote {
   float: left;
 }
 .contact-item .icon {
-  padding: 10px;
+  padding: 8px;
+  margin-bottom: 4px;
+  box-shadow: 1px 1px #ccc;
   border-radius: 100%;
   color: #32475c;
   background: #eee;
