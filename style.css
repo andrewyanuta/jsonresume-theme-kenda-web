@@ -213,7 +213,8 @@ blockquote {
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
-  background: linear-gradient(45deg, #227c74, transparent);
+  background: linear-gradient(90deg, #227c74, transparent);
+  border-radius: 10px 0px 0px 10px;
 }
 .job .where {
   color: white;
@@ -234,6 +235,9 @@ blockquote {
 .job .highlights {
   padding: 5px 0;
   font-weight: bold;
+}
+.job .highlights ul li {
+  border: 0;
 }
 .job .job-details {
   padding-left: 5%;
@@ -260,8 +264,7 @@ blockquote {
 }
 .contact-item .icon {
   padding: 10px;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-radius: 100%;
   color: #32475c;
   background: #eee;
 }
