@@ -184,12 +184,12 @@
               <div class="title only pull-right"><a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a></div>
             </div>
             {{/basics.email}}
-             {{#basics.birth}}
+             {{#basics.birthday}}
              <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fas fa-birthday-cake fa-fw"></span></div>
-              <div class="title only pull-right">{{basics.birth}}</div>
+              <div class="title only pull-right">{{basics.birthday}}</div>
             </div>
-            {{/basics.birth}}
+            {{/basics.birthday}}
             {{#basics.url}}
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
