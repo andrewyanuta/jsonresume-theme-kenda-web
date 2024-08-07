@@ -101,7 +101,7 @@ blockquote {
   width: 5px;
   height: 100%;
   position: absolute;
-  left: 35px;
+  left: 25px;
   top: 0;
   content: " ";
   display: block;
@@ -210,18 +210,22 @@ blockquote {
 .job .details {
   margin-left: 3%;
   width: 95%;
-  padding: 10px;
+  padding: 0px 10px;
   margin-bottom: 10px;
-  background: linear-gradient(90deg, #227c74, transparent);
-  border-radius: 10px 0px 0px 10px;
+  border-left: 3px solid #227c74;
 }
 .job .where {
-  color: white;
-  font-size: 1.2em;
+  color: #363636;
+  font-size: 1.4em;
   font-weight: bold;
 }
+
+.job .space-between {
+  display: flex;
+  justify-content: space-between;
+}
 .job .year {
-  color: white;
+  color: #777;
   opacity: 0.7;
 }
 .job .profession {
@@ -239,6 +243,8 @@ blockquote {
   display: list-item;
   list-style: inside;
   border: 0;
+  list-style-type: disclosure-closed;
+  padding: 0px 0px 5px 0px;
 }
 .job .job-details {
   padding-left: 5%;
@@ -264,8 +270,8 @@ blockquote {
   float: left;
 }
 .contact-item .icon {
-  padding: 8px;
-  font-size: 16px;
+  padding: 2px 2px 2px 3px;
+  font-size: 22px;
   margin-bottom: 4px;
   box-shadow: 1px 1px #ccc;
   border-radius: 100%;
@@ -312,6 +318,13 @@ blockquote {
   background: #32475c;
   position: relative;
   font-size: 0.85em;
+}
+
+.skill-list {
+  font-size: 1em;
+}
+.skill-list > span:last-of-type b {
+  display: none;
 }
 .skill-level {
   background-color: #227c74;

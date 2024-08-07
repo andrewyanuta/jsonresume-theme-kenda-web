@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-kendall-web",
-  "version": "0.2.3",
+  "version": "0.4.9",
   "description": "A JSON Resume theme built with bootstrap",
   "main": "index.js",
   "scripts": {
